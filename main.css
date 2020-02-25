@@ -1,0 +1,13 @@
+body{
+	font-family: Arial;
+}
+
+.container{
+	max-width: 600px;
+	margin: auto;
+}
+
+a:hover{
+	color:blueviolet;
+
+}
