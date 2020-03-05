@@ -1,13 +1,61 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body{
 	font-family: Arial;
 }
 
 .container{
+	padding: 10px;
 	max-width: 600px;
 	margin: auto;
+	display: flex;
+	flex-direction: column;
 }
 
-a:hover{
+.avatar{
+	align-self: center;
+}
+
+.avatar img{
+	border-radius: 50%;
+}
+
+.info{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.social-media a{
+	text-decoration: none;
+}
+
+.social-media a img{
+	width:30px;
+	height:30px;
+
+}
+
+.fullname{
+	font-weight: bold;
+}
+
+.projects{
+	margin-top: 40px;
+}
+.projects li{
+	padding:10px 0;
+}
+.projects li a:hover{
 	color:blueviolet;
 
 }
+
+@media screen and (max-width: 600px) {
+	.container{
+		max-width:300px;
+	}
+  }
