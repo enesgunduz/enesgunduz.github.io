@@ -1,3 +1,6 @@
 [submodule "music-player"]
 	path = music-player
 	url = https://github.com/enesgunduz/music-player
+[submodule "film-project"]
+	path = film-project
+	url = https://github.com/enesgunduz/film-project
