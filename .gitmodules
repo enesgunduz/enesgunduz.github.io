@@ -4,3 +4,6 @@
 [submodule "film-project"]
 	path = film-project
 	url = https://github.com/enesgunduz/film-project
+[submodule "Random-color"]
+	path = Random-color
+	url = https://github.com/enesgunduz/Random-color
