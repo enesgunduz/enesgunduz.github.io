@@ -7,3 +7,6 @@
 [submodule "Random-color"]
 	path = Random-color
 	url = https://github.com/enesgunduz/Random-color
+[submodule "Exchange-rates-api"]
+	path = Exchange-rates-api
+	url = https://github.com/enesgunduz/Exchange-rates-api
