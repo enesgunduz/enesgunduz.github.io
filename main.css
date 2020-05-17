@@ -1,10 +1,16 @@
+:root {
+	--twitter:#1DA1F2;
+	--github:#3F91CB;
+	--dribbble:#EA4C89;
+}
 *{
 	margin:0;
 	padding: 0;
 	box-sizing: border-box;
 }
 body{
-	font-family: Arial;
+	font-family: monospace;
+	background-color: black;
 }
 
 .container{
@@ -20,42 +26,72 @@ body{
 }
 
 .avatar img{
-	border-radius: 50%;
+	border-radius: 20px;
 }
 
 .info{
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 }
-
+.social-media{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width:100%;
+	margin-top:40px;
+}
 .social-media a{
 	text-decoration: none;
 }
-
+.social-media a:hover{
+	text-decoration: underline;
+}
 .social-media a img{
 	width:30px;
 	height:30px;
-
 }
-
 .fullname{
 	font-weight: bold;
 }
-
+hr{
+	margin-top: 10px;
+}
 .projects{
 	margin-top: 40px;
 }
+.projects>ul{
+	margin-top: 20px;
+}
 .projects li{
 	padding:10px 0;
+}
+.projects li,.projects a{
+	color:white;
+	font-size: 1.5em;
 }
 .projects li a:hover{
 	color:blueviolet;
 
 }
-
+h1{
+	color:white;
+	font-size: 3em;
+}
+#tw{
+	color:var(--twitter);
+}
+#gh{
+	color:var(--github);
+}
+#db{
+	color:var(--dribbble);
+}
 @media screen and (max-width: 600px) {
 	.container{
 		max-width:300px;
 	}
   }
+::selection{
+	background-color: rgba(255, 255, 255, 0.1);
+}
