@@ -10,3 +10,6 @@
 [submodule "Exchange-rates-api"]
 	path = Exchange-rates-api
 	url = https://github.com/enesgunduz/Exchange-rates-api
+[submodule "bosluk-portfolio"]
+	path = bosluk-portfolio
+	url = https://github.com/enesgunduz/bosluk-portfolio
