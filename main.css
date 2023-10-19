@@ -26,6 +26,7 @@ body{
 }
 
 .avatar img{
+	width: 100px;
 	border-radius: 20px;
 }
 
