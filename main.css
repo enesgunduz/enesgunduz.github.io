@@ -46,6 +46,9 @@ color: white;
 	width: 100px;
 	border-radius: 20px;
 }
+.about{
+  margin-top:50px;
+}
 .about h1{
   font-size: 2em;
   letter-spacing: -2px;
@@ -92,15 +95,15 @@ hr{
 }
 .projects li,.projects a{
 	color:black;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 .projects li a:hover{
 	color:blueviolet;
 
 }
-h1{
+projects h1{
 	color:black;
-	font-size: 3em;
+	font-size: 1em;
 }
 #tw{
 	color:var(--twitter);
