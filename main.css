@@ -9,7 +9,7 @@
 	box-sizing: border-box;
 }
 body{
-	font-family: monospace;
+	font-family:'Times New Roman', Times, serif ;
 	background-color: rgb(221, 221, 221);
 }
 body.dark{
@@ -43,7 +43,13 @@ color: white;
 	width: 100px;
 	border-radius: 20px;
 }
-
+.about h1{
+  font-size: 2em;
+  letter-spacing: -2px;
+}
+.about p{
+  font-size: 1.5em;
+}
 .info{
 	display: flex;
 	justify-content: center;
