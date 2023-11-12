@@ -1,6 +1,6 @@
 :root {
 	--twitter:#1DA1F2;
-	--github:#3F91CB;
+	--github:#28a745;
 	--dribbble:#EA4C89;
 }
 *{
@@ -16,6 +16,9 @@ body.dark{
 	background-color: black
 }
 body.dark h1 {
+	color: white;
+}
+body.dark .about {
 	color: white;
 }
 body.dark .projects a{
